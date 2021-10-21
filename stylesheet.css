@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*Computer will go through font list when displaying the website and use the first one it has access to, or default sans-serif if it has none.*/
+  }
+  
+h1 {
+    color: white;
+  }
+  
+p {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 10%;
+    /*Having the margin size as a percentage means that it will adjust based on screen size and should be more suitable for mobile users.*/
+  }
+
+ul {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20%;
+}
