@@ -1,0 +1,565 @@
+<doctyp html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+
+
+        <style>
+            .hr1 {
+                height: 10px;
+                border: none;
+                border-top: 2px double black;
+            }
+            
+            .title1 {
+                background-size: cover;
+                background-image: url(https://images.pexels.com/photos/3742711/pexels-photo-3742711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+                font-size: 100px;
+                color: crimson;
+            }
+            
+            .Small_title {
+                font-size: 40px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .Small_title_Changing_Trends {
+                background-size: 100% 100%;
+                background-image: url(https://tse2-mm.cn.bing.net/th/id/OIP-C.w5eg8_a_InQgnvMb9KDP-AHaF7?w=255&h=204&c=7&r=0&o=5&pid=1.7);
+                font-size: 55px;
+                color: crimson;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .Small_title_Factors {
+                background-size: 100% 100%;
+                background-image: url(https://images.pexels.com/photos/60575/smoke-smoking-chimney-fireplace-60575.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+                font-size: 55px;
+                color: crimson;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+            
+            .Small_title_impacts {
+                background-size: 100% 100%;
+                background-image: url(https://images.pexels.com/photos/2305169/pexels-photo-2305169.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+                font-size: 55px;
+                color: crimson;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+            
+            .Small_title_Ways_to_improving {
+                background-size: 100% 100%;
+                background-image: url(https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+                font-size: 55px;
+                color: crimson;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+            
+            .Tips1 {
+                font-size: 20px;
+                color: yellow;
+                background-color: slategrey;
+            }
+            
+            .Introduction_head {
+                background-color: lightgray;
+                text-align: left;
+                color: tomato;
+                font-size: 50px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .Introduction_body {
+                text-align: left;
+                color: black;
+                font-size: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            h1 {
+                color: red;
+                text-align: center;
+                font-size: 60px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: skyblue;
+            }
+            
+            .Climate_change_body {
+                text-align: left;
+                color: black;
+                font-size: 25px;
+            }
+            
+            .table_in_CCH {
+                color: black;
+                font-size: 25px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .Source_Link {
+                color: darkmagenta;
+                font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            #top {
+                background-color: skyblue;
+            }
+            
+            .To_the_top {
+                height: 80px;
+                width: 80px;
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                color: black;
+                border: 1px solid black;
+                border-radius: 5px;
+                letter-spacing: 2px;
+                padding: auto;
+                font-size: 25px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: skyblue;
+            }
+            
+            h2 {
+                color: red;
+                text-align: center;
+                font-size: 55px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: skyblue;
+            }
+            
+            .Changing_Trends_body {
+                text-align: left;
+                color: black;
+                font-size: 30px;
+            }
+            
+            .table_in_CT {
+                color: black;
+                font-size: 25px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            h3 {
+                color: red;
+                text-align: center;
+                font-size: 55px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: skyblue;
+            }
+            
+            .table_in_HFNF {
+                text-align: left;
+                color: black;
+                font-size: 25px;
+            }
+            
+            h4 {
+                color: red;
+                text-align: center;
+                font-size: 55px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: skyblue;
+            }
+            
+            .table_in_Impact {
+                text-align: left;
+                color: black;
+                font-size: 30px;
+            }
+            
+            h5 {
+                color: red;
+                text-align: center;
+                font-size: 55px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: skyblue;
+            }
+            
+            .table_in_Ways {
+                text-align: left;
+                color: black;
+                font-size: 25px;
+            }
+            
+            .End {
+                color: red;
+                text-align: center;
+                font-size: 55px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: skyblue;
+            }
+            
+            .List_Head {
+                color: #000000;
+                text-align: left;
+                font-size: 40px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .List {
+                color: black;
+                text-align: left;
+                font-size: 25px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <table id="top">
+            <tr>
+                <td id="top" width=1900px height=50px>
+                    <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.I-ZmLCojcK463HZxlkaVkAHaFm?w=267&h=202&c=7&r=0&o=5&pid=1.7" width="80px" height="50px">
+
+                </td>
+            </tr>
+        </table>
+
+        <table width=1800px height=500px align="center">
+            <!--List with pictures-->
+            <tr>
+
+                <td class="title1" width=600px height=250px rowspan="2" onclick="location.href='#h1'">
+                    <strong> Climate<br/> Change</strong>
+                </td>
+
+                <td class="Small_title_Changing_Trends" width=600px height=250px onclick="location.href='#h2'"><strong> Changing trends of Climate</strong></td>
+                <td class="Small_title_Factors" width=600px height=250px onclick="location.href='#h3'"><strong>Human Factors and Natural Factors</strong> </td>
+            </tr>
+            <tr>
+
+                <td class="Small_title_impacts" width=600px height=250px onclick="location.href='#h4'"><strong>Impacts from climate change</strong></td>
+                <td class="Small_title_Ways_to_improving" width=600px height=250px onclick="location.href='#h5'"><strong>Ways to improving</strong></td>
+            </tr>
+        </table><br/>
+
+        <table align="right" class="Tips1">
+            <tr>
+                <td class="Tips1">
+                    <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.1BM9bukO3hddDsB4YjxbGwHaHa?w=172&h=180&c=7&r=0&o=5&pid=1.7" width=25px height="35px"> You can go directly to the section you want to go to by clicking on the image or the text above.</td>
+            </tr>
+        </table><br/><br/> <br/><br/>
+
+        <h class="Introduction_head">
+            <strong>  Write before you start reading:</strong>
+        </h>
+
+        <p class="Introduction_body">
+            This website focuses on some general knowledge about climate change and some information from various websites. Currently most of the information on this site comes from the
+            <a href="https://public.wmo.int/en/our-mandate/climate" target="_blank" title="turn to website of WMO"> World Meteorological Organization </a> and <a href="https://www.noaa.gov/" target="_blank" title="turn to website of NOAA">NOAA</a>. As
+            the website creator has not systematically studied this aspect of climate change, there may be errors in some of the text expressions and datas. If you wish to correct me or if I have misrepresented myself please find my contact details at
+            the bottom of the page. Secondly, as this is my first web page, it will probably be ugly and not very functional. I am sorry for that.Finally, I hope you have an enjoyable reading journey.
+        </p><br/><br/>
+
+        <hr class="hr1">
+
+        <h1 id="h1">Climate Change</h1><br/><br/><br/>
+
+        <p class="Climate_change_body">
+            <!--Paragraph of Climate change-->
+            This section will tell you roughly what will be described in the following parts. We are not talking about climate change in one region, but rather about temperature changes and their impact on the weather on a global scale.
+            <br/><br/>
+            <table align="center">
+                <tr>
+                    <td class="table_in_CCH" width=800px>
+                        In general terms, the average global temperature is rising. We call this global warming.The response that produces global warming is generally referred to as the greenhouse effect.An explanation of the greenhouse effect in Wikipedia reads: "The greenhouse
+                        effect is the process by which radiation from a planet's atmosphere warms the planet's surface to a temperature above what it would be without this atmosphere. Radiatively active gases (i.e., greenhouse gases) in a planet's atmosphere
+                        radiate energy in all directions. Part of this radiation is directed towards the surface, thus warming it. The intensity of downward radiation – that is, the strength of the greenhouse effect – depends on the amount of greenhouse
+                        gases that the atmosphere contains. The temperature rises until the intensity of upward radiation from the surface, thus cooling it, balances the downward energy flow."
+                    </td>
+                    <td class="Source_Link" width=600px>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Climate_Change_Schematic.svg/300px-Climate_Change_Schematic.svg.png" width="525px" height="525px">
+                        <br/>Explanations and images are from .<a href="https://en.wikipedia.org/wiki/Greenhouse_effect" target="_blank" title="turn to page of WIKI">Wikipedia </a>
+                    </td>
+                </tr>
+            </table>
+
+
+            <table align="center">
+                <tr>
+                    <td class="Source_Link" width=425px><img src="https://images.pexels.com/photos/51951/forest-fire-fire-smoke-conservation-51951.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="400px" height="200px"><br/>
+                        <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C._hcZdiYuVlLliO1TFNt03wHaE7?w=265&h=180&c=7&r=0&o=5&pid=1.7" width="400px" height="200px">
+                        <br/>Images from <a href="https://cn.bing.com/images/trending?form=HDRSC3" target="_blank" title="turn to Bing"> Bing </a> and <a href="https://www.pexels.com/zh-cn/" target="_blank" title="turn to Pexel"> Pexel</a>
+                    </td>
+                    <td class="table_in_CCH Line_height1" width=800px>
+                        Generally speaking, climate change caused by natural factors is much smaller than that caused by human factors. This is because the development of industry and other industries produces far more greenhouse effects than natural factors.Most of the natural
+                        causes that cause the greenhouse effect do not occur very frequently.
+
+                    </td>
+                </tr>
+            </table>
+
+
+            <table align="center">
+                <tr>
+                    <td class="table_in_CCH" width=800px>
+                        Changes in climate affect many aspects and regions. The most obvious effects are the melting of glaciers in the Arctic due to rising temperatures and the rise in sea level
+                    </td>
+
+                    <td class="Source_Link" width=600px>
+                        <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.z3glltKMGF-aCEx3bgEsIgHaEA?w=320&h=180&c=7&r=0&o=5&pid=1.7" width="450px" height="225px">
+                        <br/>Image from<a href="https://cn.bing.com/images/search?q=melting%20of%20glaciers&qs=n&form=QBIR&sp=-1&pq=melting%20of%20glaciers&sc=0-19&cvid=9DA483813D654AD3B9ACCB34DAB49C9C&first=1&tsc=ImageBasicHover" target="_blank" title="turn to Bing"> Bing</a>
+
+                    </td>
+                </tr>
+
+            </table>
+            <br/><br/>
+
+            <div class="Climate_change_body"> Although the frequency of climate change is particularly rapid, there are ways to improve it. As the greenhouse effect is largely a result of controllable factors, we can also control these factors to mitigate the effects of climate change.
+                For example, some of the impacts caused by the development of industry can be avoided or repaired artificially.</div>
+
+
+        </p>
+        <br/><br/><br/><br/>
+
+
+        <div class="To_the_top" onclick="location.href='#top'"> TOP</div>
+        <!--Button to the top-->
+
+        <hr class="hr1">
+
+        <h2 id="h2">Changing trends of Climate</h2><br/><br/><br/>
+
+        <P class="Changing_Trends_body">
+            <!--Paragraph of climare changing trend-->Climate change has been more severe in recent decades than it was before the twentieth century. And the overall trend of climate change is the same - that is, global warming.
+            <br/><br/>
+            <table align="center">
+                <tr>
+                    <td class="table_in_CT" width=800px>
+                        There are some reports and images from <a href="https://public.wmo.int/en/our-mandate/climate" target="_blank" title="turn to website of WMO"> World Meteorological Organization </a>. According to the <a href="https://public.wmo.int/en/media/press-release/warming-trend-continues-2014"
+                            target="_blank" title="turn to the wabpage">"Warming Trend Continues in 2014" </a>in IMO we can get the trends of climate changing until 2014.We can know from the pictures on the side that the temperature began to increase abnormally
+                        around the 1950s. From the end of the twentieth century to 2014, the annual temperature differences were mostly positive integers. This means that temperatures continued to increase during that period.The rate of rasing of global
+                        average temperature is also increased.In the WMO article it was written that:<br/> "Average global air temperatures over land and sea surface in 2014 were 0.57 °C (1.03°F) above the long-term average of 14.00°C (57.2 °F) for the
+                        1961-1990 reference period. By comparison, temperatures were 0.55 °C (1.00°F) above average in 2010 and 0.54°C (0.98°F) above average in 2005, according to WMO calculations. The estimated margin of uncertainty was 0.10°C (0.18°F)."
+                    </td>
+                    <td class="Source_Link" width=500px>
+                        <img src="https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/news/multimedia/pr_1_1_0.png" width="500px"><br/> Reports and image from <a href="https://public.wmo.int/en/our-mandate/climate" target="_blank" title="turn to website of WMO"> WMO </a>.
+                    </td>
+                </tr>
+            </table>
+            <br/>
+
+            <table align="center">
+                <tr>
+                    <td class="Source_Link" width=500px>
+                        <img src="https://www.ncdc.noaa.gov/monitoring-content/sotc/global/2021/jul/global-land-ocean-anomalies-202101-202107.png" width="500px"><br/> Report and images are from <a href="https://www.ncdc.noaa.gov/sotc/global/202107#ytd-temp"
+                            target="_blank" title="turn to NOAA">NOAA</a>.
+                    </td>
+
+                    <td class="table_in_CT" width=800px>
+                        And we can get more detailed information and images from NOAA. From the image on the left we can see that the July temperatures are still showing an anomalous increase every year after 2014. And each year the increase is getting bigger and bigger.This
+                        effect must cause the temperature to be abnormally high.It is also written in the NOAA report that :
+                        <br/>"The global land-only surface temperature for July 2021 was 1.40°C (2.52°F) above the 20th-century average — the highest July land-only surface temperature on record, surpassing the previous record set in 2017, and again in
+                        2020, by 0.17°C (0.31°F). The warmth across the global land surfaces was mainly driven by higher than normal temperatures across much of the Northern Hemisphere land, which also had its highest July temperature at 1.54°C (2.77°F),
+                        exceeding the now second warmest July set in 2012 by 0.19°C (0.34°F). Overall, the Northern Hemisphere land and ocean surface had its second warmest July on record at +1.14°C (+2.05°F). This was only 0.06°C (0.11°F) shy of tying
+                        the record warm July of 2020."
+                        <br/>
+                    </td>
+                </tr>
+            </table><br/>
+
+            <table align="center">
+                <tr>
+                    <td class="table_in_CT" width=800px>
+                        We can see the global temperature anomalies more visually in the image on the right. Areas where the temperature is higher than the normal average will appear in different shades of red depending on their temperature. The majority of the images on the
+                        right are in red which indicates anomalies. This means that temperature anomalies are happening in most parts of the world. If you want more maps like this, you can go to <a href="https://www.ncdc.noaa.gov/temp-and-precip/ghcn-gridded-products/maps#global-maps-select"
+                            target="_blank" title="turn to NOAA"> NOAA </a>to find them.
+
+                    </td>
+
+                    <td class="Source_Link" width=450px>
+                        <img src="https://www.ncdc.noaa.gov/monitoring-content/sotc/global/map-percentile-mntp/map-percentile-mntp-202107.png" width="450px"><br/> image is from <a href="https://www.ncdc.noaa.gov/sotc/global/202107#ytd-temp" target="_blank"
+                            title="turn to NOAA">NOAA </a>
+
+                    </td>
+                </tr>
+            </table><br/>
+
+        </P>
+
+        <hr class="hr1"><br/><br/>
+
+
+        <h3 id="h3">Human factors and Natural Factors </h3>
+
+        <p class="table_in_HFNF">
+            <!--Paragraph of Human factors and Natural factors-->Changes in climate and temperature can be divided into two main categories: anthropogenic and natural factors. Both factors emit a fair amount of greenhouse gases. This component will be mainly centred on carbon dioxide.
+            <br/><br/>
+
+            <table align="center">
+                <tr>
+                    <td class="table_in_HFNF" width=1300px>
+                        There is a strong relationship between the change in temperature and the change in carbon dioxide.We can find the relevant article in the NOAA report:<br/> "One of the most remarkable aspects of the paleoclimate record is the strong
+                        correspondence between temperature and the concentration of carbon dioxide in the atmosphere observed during the glacial cycles of the past several hundred thousand years. When the carbon dioxide concentration goes up, temperature
+                        goes up. When the carbon dioxide concentration goes down, temperature goes down. A small part of the correspondence is due to the relationship between temperature and the solubility of carbon dioxide in the surface ocean, but the
+                        majority of the correspondence is consistent with a feedback between carbon dioxide and climate."
+                        <br/>This article is extracted from <a href="https://www.ncdc.noaa.gov/global-warming/temperature-change" target="_blank" title="turn to report">Temperature Change and Carbon Dioxide Change</a>
+
+                    </td>
+                </tr>
+
+            </table><br/>
+
+
+            <table align="center">
+                <tr>
+                    <td class="table_in_HFNF" width=800px>
+                        Anthropogenic increases in carbon emissions have increased significantly since the last century. The development of industry, for example, has resulted in the emission of large amounts of waste gases. This has led to a significant increase in anthropogenic
+                        emissions of carbon dioxide and greenhouse gases compared to the amount emitted before the start of industry .As we can clearly see from the picture on the right, around the middle of the 20th century the world's CO2 emissions
+                        began to increase by leaps and bounds.And with the global population boom of recent decades, the amount of CO2 exhaled by all people alone is a huge amount.With the development of different industries, items that emit emissions,
+                        such as cars, are becoming more and more common. The large number of these items also generates a proportion of CO2 emissions.
+                    </td>
+
+                    <td class="Source_Link">
+                        <img src="https://s3.bmp.ovh/imgs/2021/10/bd356d280c1bb6f9.png" width="800px" height="600px"><br/> The image is from <a href="https://www.c2es.org/content/international-emissions/" target="_blank" title="turn to C2ES">C2ES</a>.
+
+                    </td>
+                </tr>
+            </table><br/>
+
+            <table align="center">
+                <tr>
+
+                    <td class="Source_Link">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Carbon_cycle.jpg/440px-Carbon_cycle.jpg" width="600px"><br/> The article and image are from <a href="https://en.wikipedia.org/wiki/Carbon_sink" target="_blank"
+                            title="turn to WIKI">Wikipedia</a>
+                    </td>
+
+                    <td class="table_in_HFNF" width=1200px>
+                        First of all we need to be clear about one idea: <br/>"The greenhouse effect is not bad in itself, the abnormal greenhouse effect and its effects that are bad.The natural factors actually emits much more carbon dioxide and greenhouse
+                        gases naturally than humans do."
+                        <br/>As an example, the huge number of cattle in the world emit an unbelievably large amount of greenhouse gases every day. In fact, the large amounts of carbon dioxide emitted daily by all humans and animals around the world by
+                        breathing can also be classified as a natural factor. This is because breathing is a physiological activity that must be done in order to survive. Before human intervention, the planet's carbon emissions and 'Carbon sink' were
+                        in balance. We can find a description and pictures of this in Wikipedia ：
+                        <br/><br/> " A carbon sink is any reservoir, natural or otherwise, that accumulates and stores some carbon-containing chemical compound for an indefinite period and thereby lowers the concentration of carbon dioxide (CO2) from
+                        the atmosphere. Globally, the two most important carbon sinks are vegetation and the ocean. Public awareness of the significance of CO2 sinks has grown since passage of the 1997 Kyoto Protocol, which promotes their use as a form
+                        of carbon offset.There are also different strategies used to enhance this process. Soil is an important carbon storage medium. Much of the organic carbon retained in the soil of agricultural areas has been depleted due to intensive
+                        farming. "Blue carbon" designates carbon that is fixed via the ocean ecosystems. Mangroves, salt marshes and seagrasses make up a majority of ocean plant life and store large quantities of carbon. Many efforts are being made to
+                        enhancing natural sequestration in soils and the oceans. In addition, a range of artificial sequestration initiatives are underway such as changed building construction materials, carbon capture and storage and geological sequestration."
+
+
+                    </td>
+
+
+                </tr>
+
+            </table>
+
+        </p><br/><br/><br/>
+
+        <hr class="hr1">
+
+        <h4 id="h4">Impacts from climate change</h4>
+
+        <p class="table_in_Impact">
+            <!--Paragraph of impacts from climate change-->Abnormal climate change can have many effects, both for humans and for nature.We can find this passage in NOAA to describe the impact of climate change:
+            <br/><br/>"The impacts of climate change on different sectors of society are interrelated. Drought can harm food production and human health. Flooding can lead to disease spread and damages to ecosystems and infrastructure. Human health issues
+            can increase mortality, impact food availability, and limit worker productivity. Climate change impacts are seen throughout every aspect of the world we live in. However, climate change impacts are uneven across the country and the world —
+            even within a single community, climate change impacts can differ between neighborhoods or individuals. Long-standing socioeconomic inequities can make underserved groups, who often have the highest exposure to hazards and the fewest resources
+            to respond, more vulnerable. "
+            <br/><br/>
+            <table class="table_in_Impact" align="center">
+                <tr>
+                    <td class="table_in_Impact" width=1000px>The article above gives a general statement about the effects of climate change. In this paragraph we will mainly talk about its impact on humans themselves. Its worst effects are still those concerning human health. An excerpt from
+                        the NOAA article has a paragraph that reads:<br/><br/> " Climate change is already impacting human health. Changes in weather and climate patterns can put lives at risk. Heat is one of the most deadly weather phenomena. As ocean
+                        temperatures rise, hurricanes are getting stronger and wetter, which can cause direct and indirect deaths. Dry conditions lead to more wildfires, which bring many health risks. Higher incidences of flooding can lead to the spread
+                        of waterborne diseases, injuries, and chemical hazards. As geographic ranges of mosquitoes and ticks expand, they can carry diseases to new locations.<br/> The most vulnerable groups, including children, the elderly, people with
+                        preexisting health conditions, outdoor workers, people of color, and people with low income, are at an even higher risk because of the compounding factors from climate change. But public health groups can work with local communities
+                        to help people understand and build resilience to climate change health impacts."
+
+                    </td>
+                    <td class="Source_Link">
+                        <img src="https://s3.bmp.ovh/imgs/2021/10/2f01f6324d2cdc49.png" width="700"><br/> The article and image are from <a href="https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts" target="_blank" title="turn to NOAA">NOAA</a>.
+                    </td>
+                </tr>
+            </table><br/><br/>
+
+            <table class="table_in_Impact" align="center">
+                <tr>
+                    <td class="Source_Link">
+                        <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.jVsQa2UJY8msI622RfjXkQHaEC?w=299&h=180&c=7&r=0&o=5&pid=1.7" width="600px"><br/>
+                        <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.nDXwJgbmDcpWO5iwmsLKQgHaE6?w=272&h=180&c=7&r=0&o=5&pid=1.7" width="600px"><br/> Images are from <a href="https://cn.bing.com/images/search?q=%E5%B9%B2%E6%97%B1&qs=n&form=QBIR&sp=-1&pq=%E5%B9%B2%E6%97%B1&sc=8-2&cvid=8265E34E908E407BAF11974E08272D08&first=1&tsc=ImageBasicHover"
+                            target="_blank" title="turn to Bing">Bing</a>
+                    </td>
+                    <td class="table_in_Impact" width=800px>
+                        Climate change will have a major impact on ecosystems and organisms. The Arctic is one of the most vulnerable places to receive the effects of climate change. Global warming has caused some of the Arctic's glaciers to heat up and melt. The melting of
+                        Arctic glaciers will not only damage the Arctic ecosystem itself but will also cause a number of problems as global sea levels rise.<br/> A large part of the effects of climate change will also act on the
+                        oceans. The ocean is the world's largest reservoir of carbon dioxide. It absorbs around 30% of CO2 emissions. This is causing the sea to become more and more acidic. This can greatly damage the ecology of the oceans and greatly
+                        affect marine life.<br/> In addition to this, the abnormal climate may increase the frequency of extreme weather events. For example, droughts, floods and other disasters. This can greatly endanger the survival of living organisms.
+
+                    </td>
+                </tr>
+            </table>
+
+        </p><br/><br/><br/>
+
+        <hr class="hr1">
+
+        <h5 id="h5">Ways to improving</h5>
+
+        <p class="table_in_Ways">
+            <!--Paragraph of Ways to improve-->The abnormal greenhouse effect is the main cause of climate change. So if we want to improve climate change and the damage it causes, the best way to do so is to make the greenhouse effect normal.
+            <br/><br/>
+
+            <table class="table_in_Ways" align="center">
+                <tr>
+                    <td class="Source_Link" width=500px>
+                        <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.GzzSRra9MyQ6lN-MF7VaTgHaE8?w=231&h=180&c=7&r=0&o=5&pid=1.7" width=400px height="300px">
+                        <br/><img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.zBQpHu1T0mI_5sFzLN5z6AHaFp?w=237&h=181&c=7&r=0&o=5&pid=1.7" width="400px" height="300px">
+                        <br/>The images are from <a href="https://cn.bing.com/images/search?q=%E9%A3%8E%E8%83%BD%E5%92%8C%E5%A4%AA%E9%98%B3%E8%83%BD&qs=n&form=QBIRMH&sp=-1&pq=%E9%A3%8E%E8%83%BD%E5%92%8Ctai%27yang%27n&sc=8-13&cvid=9200EC267DBD4B0E923F86BED65DB119&first=1&tsc=ImageBasicHover"
+                            target="_blank" title="turn to Bing">Bing</a>
+
+                    </td>
+
+                    <td class="table_in_Ways" width=800px>
+                        The main cause of human-induced climate change and the greenhouse effect comes from human emissions of greenhouse gases.Because humans need to develop projects such as industry, there are significant emissions throughout the process.Large amounts of fossil
+                        fuels are burned and emit large amounts of greenhouse gases, such as carbon dioxide. So to improve the abnormal greenhouse effect and global warming we need to reduce the amount of greenhouse gases emitted by industry and other
+                        causes.In order to achieve this goal while allowing society to continue to develop, replacing fossil fuels with other energy sources could be a good option. Energy from sources such as solar power, water power and wind power are
+                        all good choices. The use of these sources of energy has a much lower impact on the greenhouse effect.So for most people, the best way to help improve the greenhouse effect is to try to use these sources of energy rather than fossil
+                        fuels.
+                    </td>
+                </tr>
+            </table>
+
+            <table class="table_in_Ways" align="center">
+                <tr>
+                    <td class="table_in_Ways" width=800px>
+                        In the last paragraph of the section "Human Factors and Natural Factors" we learn that nature itself has a balanced greenhouse effect. So we can start to improve the greenhouse effect in this respect. Nature itself has a relatively complete system of
+                        greenhouse effects - an effect that humans call <a href="https://en.wikipedia.org/wiki/Carbon_sink" target="_blank" title="turn to WIKI">carbon sink</a> . So we can improve the natural environment, such
+                        as planting trees and improving the marine environment, in order to enhance carbon sinks. A sufficiently good marine environment and an abundance of forests would significantly increase the planet's efficiency in dealing with greenhouse
+                        gases. And through carbon sinks, they can separate carbon dioxide from the atmosphere, thereby improving global warming.
+                    </td>
+
+                    <td class="Source_Link" width=500px>
+                        <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.7SpAKeSZl3XPDM8IO1yKCgHaFj?w=230&h=180&c=7&r=0&o=5&pid=1.7" width="500px"><br/> Image is from <a href="https://cn.bing.com/images/search?q=Tree%20planting&qs=n&form=QBIRMH&sp=-1&pq=tree%20planting&sc=0-13&cvid=971632726661440789F8583F84CD0E18&first=1&tsc=ImageBasicHover"
+                            target="_blank" title="turn to Bing">
+                            Bing</a>.
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+
+        </p>
+
+        <h6 class="End">Thank you very much for reading</h6>
+
+        <h class="List_Head">Links of Sources</h>
+
+        <ul class="List" style="list-style-image: url(https://s3.bmp.ovh/imgs/2021/10/dd3fb1370008b46d.png);">
+            <li> <a href="https://www.noaa.gov/" target="_blank" title="turn to NOAA">NOAA</a> </li>
+            <li><a href="https://public.wmo.int/en" target="_blank" title="turn to WMO">WMO</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank" title="turn to WIKI">WIKI</a></li>
+        </ul>
+
+    </body>
+
+    </html>
